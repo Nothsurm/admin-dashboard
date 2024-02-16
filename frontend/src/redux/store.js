@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit'
-import themeReducer from './theme.js'
 
-export const store = configureStore({
+
+/*export const store = configureStore({
     reducer: {
         theme: themeReducer
-    }
-})
+    },
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false})
+})*/
